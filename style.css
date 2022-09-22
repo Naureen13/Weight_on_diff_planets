@@ -1,0 +1,98 @@
+*{
+    margin:none;
+    box-sizing: border-box;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+body h1{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#ss{
+    margin-top: 18%;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 100%;
+}
+#wt{
+    margin: auto;
+    display:block;
+    font-size: large;
+}
+
+#message{
+    /* margin: auto; */
+    /* display: block; */
+    /* border: 2px solid red; */
+    text-align: center;
+    color:orange;
+    margin: 50px ;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rotate{
+    animation: rotation 50s infinite linear ;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotateX(360deg);
+      transform: rotateY(360deg);
+      transform: rotateZ(360deg);
+    }
+  }
+  
+#sun{
+    margin-left: -500px;
+    margin-top: -700px;
+}
+
+#mercury{
+    margin-top: -150px;
+    margin-left: -250px;
+}
+#venus{
+    margin-top: -130px;
+    margin-left: -120px;
+}
+#earth{
+    margin-top: -95px;
+    margin-left: -120px;
+}
+#mars{
+    margin-top: -60px;
+    margin-left: -120px;
+}
+#jupiter{
+    margin-top: -35px;
+    margin-left: -120px;
+}
+#saturn{
+    margin-top: 20px;
+    margin-left:-150px;
+}
+#uranus{
+    margin-top: 150px;
+    margin-left: -120px;
+}
+#neptune{
+    margin-top: 210px;
+    margin-left: -120px;
+    margin-right: 20px;
+}
+
+
+  
